@@ -27,4 +27,13 @@ const ContactsListPage = () => {
           <ContactCard 
             key={contact.id} 
             contact={contact} 
-            
+            onDelete={handleDelete}
+            onView={() => navigate(`/contacts/${contact.id}`)}
+          />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default ContactsListPage;
