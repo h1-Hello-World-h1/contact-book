@@ -1,7 +1,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
 }
 
@@ -12,10 +12,10 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  /* filter: drop-shadow(0 0 2em #646cffaa); */
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  /* filter: drop-shadow(0 0 2em #61dafbaa); */
 }
 
 @keyframes logo-spin {
@@ -38,5 +38,28 @@
 }
 
 .read-the-docs {
-  color: #888;
+  /* color: #888; */
+}
+
+/*New Style*/
+.body-of-page {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: min-content auto min-content;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+
+    .add-btn {
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+    }
+  }
+
+  footer {
+    padding: 1.5rem;
+  }
 }

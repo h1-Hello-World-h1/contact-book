@@ -9,7 +9,9 @@ function App() {
     <>
       <div className='body-of-page'>
         <HeaderComponent />
-        <Outlet />
+        <main>
+          <Outlet />
+        </main>
         <FooterComponent />
       </div>
     </>
