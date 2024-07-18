@@ -4,10 +4,10 @@ import {
     Route,
     Navigate,
 } from "react-router-dom";
-import App from "../src/App.jsx";
-import ContactsListPage from "../src/components/pages/ContactsList.page.jsx";
-import NewContactPage from "../src/components/pages/NewContact.page.jsx";
-import OneContactPage from "../src/components/pages/OneContact.page.jsx";
+import App from "../App.jsx";
+import ContactsListPage from "../components/pages/ContactsList.page.jsx";
+import NewContactPage from "../components/pages/NewContact.page.jsx";
+import OneContactPage from "../components/pages/OneContact.page.jsx";
 
 const pagesRouter = createBrowserRouter(
     createRoutesFromElements(
