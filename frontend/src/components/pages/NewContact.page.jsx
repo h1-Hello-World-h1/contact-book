@@ -1,7 +1,7 @@
 function NewContactPage() {
 
     return (
-      <>
+      <div className="new-contact-wrapper">
         <h1>New Contact</h1>
         <form action="#">
                 <div>
@@ -62,10 +62,12 @@ function NewContactPage() {
                   </div>
                 </fieldset>
 
-                <button type="submit">Submit</button>
-                <button type="reset">Reset</button>
+                <div className="btns">
+                  <button type="submit">Submit</button>
+                  <button type="reset">Reset</button>
+                </div>
         </form>
-      </>
+      </div>
     )
 }
   
