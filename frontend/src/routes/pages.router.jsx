@@ -15,7 +15,7 @@ const pagesRouter = createBrowserRouter(
             <Route path="contacts">
                 <Route index element={<ContactsListPage />} />
                 <Route path="new" element={<NewContactPage />} />
-                <Route path=":contactName" element={<OneContactPage />} />
+                <Route path=":contactId" element={<OneContactPage />} />
             </Route>
             <Route path="*" element={<Navigate to="/contacts" />} />
         </Route>,
